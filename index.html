@@ -10,19 +10,56 @@
 <body>
     <div  class="container">
         <div id="home" class="flex-center flex-column">
-         <h1>Music Quiz!</h1>
+         <h1>General Quiz about anything</h1>
          <label for="questionCount">Difficult</label>
          <select id="questionCount">
             <option value="Easy">Easy</option>
             <option value ="Medium">Medium</option>
             <option value="Hard">Hard</option>
             <option value ="Xtreme">Xtreme</option>
+            <option value ="cscfinal">CSCFinal</option>
          </select>
-         <a class="button" href="/game.html">Play</a>
+         <a id="playBtn" class="button" href="/game.html">Play</a>
          <a class="button" href="/highscores.html">HighScores</a>   
 
-        </div>  
+        </div>
         <script src="game.js"></script>  
+        <script>
+  const diffSelect = document.getElementById('questionCount');
+  const playBtn = document.getElementById('playBtn');
+
+  // Restore previous selection (optional nicety)
+  const saved = localStorage.getItem('difficulty');
+  if (saved && diffSelect) diffSelect.value = saved;
+
+  // Always keep localStorage in sync when user changes the dropdown
+  if (diffSelect) {
+    diffSelect.addEventListener('change', () => {
+      localStorage.setItem('difficulty', diffSelect.value);
+      console.log('[index] Saved difficulty:', diffSelect.value);
+    });
+  }
+
+  // Ensure a value is saved even if the user never changes the dropdown
+  function ensureDifficultySaved() {
+    if (!diffSelect) return;
+    const current = diffSelect.value || 'Easy';
+    localStorage.setItem('difficulty', current);
+    console.log('[index] Ensured difficulty is saved as:', current);
+  }
+
+  // Save right now on page load
+  ensureDifficultySaved();
+
+  // Also save right before navigating to the game
+  if (playBtn) {
+    playBtn.addEventListener('click', () => {
+      ensureDifficultySaved();
+    });
+  }
+</script>
+        
     </div>
+
 </body>
 </html>
