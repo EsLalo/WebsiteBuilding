@@ -1,26 +1,497 @@
 [
     {
-        "question": "Inside which HTML element do we put the JavaScript ??",
-        "choice1": "<script>",
-        "choice2": "<javascrpit>",
-        "choice3": "<js>",
-        "choice4": "<scrpiting",
-        "answer": 1
-    },
-    {
-        "question": "What is the correct syntax for referring to an external scrpit call 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script scr='xxx.js;>",
-        "choice4": "<script file='xxx.js'>",
+        "question": "Define Refactoring",
+        "choice1": "Making the code cheaper to sell",
+        "choice2": "Updating the User interface",
+        "choice3": "Improving the internal structure of the code without changing its external behavior",
+        "choice4": "Allowing the code to recurively simplify the factorial value of a member",
         "answer": 3
     },
     {
-        "question": "How do you write 'Hello World' in an alert box",
-        "choice1": "msgBox('Hello World');",
-        "choice2": "alertBox('Hello World');",
-        "choice3": "msg('Hello World');",
-        "choice4": "alert('Hello World');",
+        "question" : "Static programming analysis includes all of the following execpt: ",
+        "choice1" : "Finding programming errors",
+        "choice2" : "Capturing run-time divide by zero exception",
+        "choice3" : "Caculating cyclical complexity",
+        "choice4" : "Identifying unused code",
+        "answer" : 2
+    },
+    {
+        "question" : "The output of the JVM ___",
+        "choice1" : "Native machine Code",
+        "choice2" : "Encapsulation",
+        "choice3" : "Bytecode",
+        "choice4" : "Properly indented source code",
+        "answer" : 1
+    },
+    {
+        "question" : "Whats is the difference between an object and a class in java?",
+        "choice1" : "An Object is created from a class",
+        "choice2" : "A class is created from an object",
+        "choice3" : "An object defines behavior",
+        "choice4" : "A class defines behavior",
+        "answer" : 1
+    },
+    {
+        "question" : "In order to have a natural ordering the class must implement the ____",
+        "choice1" : "Comparable interface",
+        "choice2" : "Comparator interface",
+        "choice3" : "a wrapper class",
+        "choice4" : "the Random Class",
+        "answer"  : 1
+    },
+    {
+        "question": "Of the Following, which could be used as a way to overload a method?",
+        "choice1": "Have different method names",
+        "choice2": "Have different names for parameters",
+        "choice3": "Have a different number of parameters",
+        "choice4": "Have a different return types",
+        "answer": 3
+    },
+    {
+        "question": "Encapsulation is ______? ",
+        "choice1": " The act of writing all the code in a single langugae.",
+        "choice2": "The act of grouping both data and the operations that affect that data into a single class/object.",
+        "choice3": "The act of summarizing the meaning of the code.",
+        "choice4": "The physical storgae of all data for an object at a single location way",
+        "answer" : 2
+    },
+    {
+        "question" : "The Get/Put prinicple says you should use a(n) ______ when you wnat to GET values from a structure",
+        "choice1" : "Upper Bounded Wildcard",
+        "choice2" : "Lower Bounded Wildcard",
+        "choice3" : "unbounded Wildcard",
+        "choice4" : "generic Wildcard",
+        "answer" : 1
+    },
+    {
+        "question": "What is the following code snippet an example of________?\n<? super Integer>",
+        "choice1": "bounded type",
+        "choice2": "generic type",
+        "choice3": "upper bounded wildcard type",
+        "choice4": "lower bounded wildcard type",
         "answer": 4
+    },
+    {
+        "question" : "What is the most specific answer for what the following code snippet is an example of ____\n <? super T>",
+        "choice1" : "Two-way bounded type",
+        "choice2" : "unbounded type",
+        "choice3" : "upper bounded wildcard type",
+        "choice4" : "lower bounded wildcard type",
+        "answer" : 4
+    },
+    {
+        "question": "You should use a(n) _______ when you want to get values out of a structure?",
+        "choice1": "extends wildcard",
+        "choice2": "super wildcard",
+        "choice3": "unbounded wildcard",
+        "choice4": "generic wildcard",
+        "answer": 1
+    },
+    {
+        "question": "For the below Test class which way of object creation is invaild?\n class Test<T extends Number>{} ",
+        "choice1": "Test<T> t1 = new Test<Integer>();",
+        "choice2": "Test<Float> t2 = new Test<Float>();",
+        "choice3": "Test<Double> t3 =new Test<Double>();",
+        "choice4": "Test<Number> t4 = new Test<>();",
+        "answer": 1
+    },
+    {
+        "question": "Given the example below pick the correct answer:\nimport.java.util*\nclass UtilitiesTest{\npublic static void main(String[] args){\nList<int>intList = new ArrayList<>();\nintList.add(10);\nintList.add(20);\nSystem.out.printf('The list is: %s/n', intList);\n}\n}",
+        "choice1": "It prints the following: The list is: [10, 20]",
+        "choice2": "It prints the following: the list is: [20, 10]",
+        "choice3": "It results in a compiler error",
+        "choice4": "It results in a runtime error",
+        "answer": 3
+    },
+    {
+        "question": "Based on the class definition below, what can be  inferred about the following class B:\npublic class B<T extends A>{...}",
+        "choice1": "Class T extends B",
+        "choice2": "B is a bounded parameterized type restricted to be of type T which is of type A or a subclass of A",
+        "choice3": "T is a bounded parameterized type restricted to be of type A or a child of A",
+        "choice4": "T is a bounded parameterized type restricted to be of type A or a parent of A",
+        "answer": 3
+    },
+    {
+        "question": "Given the followning definitions, which assignments are legal? \nclass Box<T>{}\nclass SuperBox<T> extends Box<T>{}\n1. Box<String> b = new SuperBox<String>();\n2. Box<Object> b = new Box<Object>();\n3. Box<Object> b = new SuperBox<String>();",
+        "choice1": "1 only",
+        "choice2": "2 only",
+        "choice3": "1 and 2",
+        "choice4": "1, 2, 3",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is not a reason for refactoring. ",
+        "choice1": "Security issue",
+        "choice2": "Performance issue absorbing too many resources",
+        "choice3": "Software bug",
+        "choice4": "Updating the user interface",
+        "answer": 4
+    },
+    {
+        "question": "The Object class has the following methods?",
+        "choice1": "A. String to String()",
+        "choice2": "B. boolean equals(Object obj)",
+        "choice3": "Both A and B",
+        "choice4": "Neither A nor B",
+        "answer": 4
+    },
+    {
+        "question": "What is the name of the class that is the parent (directly or indirectly) to every other class in Java? ",
+        "choice1": "Java",
+        "choice2": "Class",
+        "choice3": "Root",
+        "choice4": "Object",
+        "answer": 4
+    },
+    {
+        "question": "The interface Comparator contains the method ?",
+        "choice1": "toCompare",
+        "choice2": "compare",
+        "choice3": "compareTo",
+        "choice4": "compareWith",
+        "answer": 2
+    },
+    {
+        "question":"The interface Comparable contains the method _______",
+        "choice1" : "toCompare",
+        "choice2": " compare",
+        "choice3" : "compareTo",
+        "choice4" : "compareWith",
+        "answer" : 3 
+    },
+    {
+        "question": "Which statement is not true about sub classes?",
+        "choice1": "They can override constructors",
+        "choice2": "They can overload concrete methods of the superclass.",
+        "choice3": "They can override abstract methods of the superclass.",
+        "choice4": "They can overload abstract methods of the superclass.",
+        "answer": 4
+    },
+    {
+        "question": "Which statement is not true about interfaces? ",
+        "choice1": "They can have static methods",
+        "choice2": "They cannot be generic",
+        "choice3": "Variables in interfaces are both final and static by default",
+        "choice4": "All of the above",
+        "answer": 2
+    },
+    {
+        "question": " How many interface can a Java class implement?",
+        "choice1": "One",
+        "choice2": "Two",
+        "choice3": "Three",
+        "choice4": "Unlimited",
+        "answer": 4
+    },
+    {
+        "question": "How many copies of 'My Day' are created in the String Constant Pool if you excute the following statements \nString x = new String('My Day');\nString y = 'My Day';\nString z = new String('My Day'); ",
+        "choice1": "0",
+        "choice2": "1",
+        "choice3": "2",
+        "choice4": "3",
+        "answer": 2
+    },
+    {
+        "question": "The following statement is incorrect because:\n List<Object> ml = new ArrayList<Integer>();",
+        "choice1": "Generic types are not covariant",
+        "choice2": "Generic types are covariant",
+        "choice3": "An interface variable can't refer to an actual class object",
+        "choice4": "Number is an abstract class",
+        "answer": 1
+    },
+    {
+        "question": "Based on the class definition below, and assuming that A is a class, what can be inferred about the following the typing of class X:______\npublic class X <T extends A & B>{...}",
+        "choice1": "Class T must implement interfaces A and B",
+        "choice2": "Class T must implement interface A",
+        "choice3": "Class T must implement interface B",
+        "choice4": "A and B must be subclasses of T ",
+        "answer": 1
+    },
+    {
+        "question": "Given the following definitions, which assignments are legal? \ninterface Tax<T>{}\nclass Price<T>implements Tax<T>{}\n1. Price<Double> b = new Tax<Double>();\n 2. Tax<? extends Number> b = new Price<Double>():\n 3. Tax<Double> b = new Price<Double>();",
+        "choice1": "1 only",
+        "choice2": "2 only",
+        "choice3": "1 and 2 only",
+        "choice4": "2 and 3 only",
+        "answer": 4      
+    },
+    {
+        "question": " What is the most specific answer for what the following code snippet is an example of\n <?> ",
+        "choice1": "Two-bounded type",
+        "choice2": "unbounded type",
+        "choice3": "Upper bounded wildcare type",
+        "choice4": "lower bounded wildcard type",
+        "answer": 2
+    },
+    {
+        "question": "How many parents can a java class have? ",
+        "choice1": "One",
+        "choice2": "Two",
+        "choice3": "Three",
+        "choice4": "Unlimited",
+        "answer": 1
+    }, 
+    {
+        "question": "What is the most specific answer for what the following code snipet is an example of: _______\n <? extends Number> ",
+        "choice1": "bounded type",
+        "choice2": "generic type",
+        "choice3": "upper bounded wildcard type",
+        "choice4": "lower bounded wildcard type",
+        "answer": 3
+    },
+    {
+        "question": "The ability to use a parent refernce variable to refer to a child object is an example of ?",
+        "choice1": "Inheritance",
+        "choice2": "Polymorphism",
+        "choice3": "Generics",
+        "choice4": "Collection",
+        "answer": 2
+    },
+    {
+        "question": "The ability to use an interface reference variable to refer to an object of a class that implements the interface is example of ______",
+        "choice1": "Inheritance",
+        "choice2": "Encapsulation",
+        "choice3": "Generics",
+        "choice4": "Polymorphism",
+        "answer": 4
+    },
+    {
+        "question": "You should use an _______ when you want to put values into a structure?",
+        "choice1":"extends wildcard",
+        "choice2":"super wildcard",
+        "choice3":"unbounded wildcard",
+        "choice4":"generic wildcard",
+        "answer": 2
+    },
+    {
+        "question": "For the below Test class, which way of object creation is invaild?\n class Test<T extends Number>{} ",
+        "choice1": "Test<T> t1 = new Test<Integer>();",
+        "choice2": "Test<?> t2 = new test<Integer>();",
+        "choice3": "Test<Integer> t3 =new Test<Integer>();",
+        "choice4": "Test<Integer> t4 = new Test<>();",
+        "answer": 1
+    },
+    {
+        "question": "The Follwoing statement is incorrect because: ______\n List<Number> ml = new ArrayList<Integer>();",
+        "choice1": "Generic types are not covariant",
+        "choice2": "Generic types are covariant",
+        "choice3": "An interface variavle can't refer to an actual class object",
+        "choice4": "Number is an abstract class ",
+        "answer": 1
+    },
+    {
+        "question": "Based on theclass definition below, and assuming the A is a class, what can be inferred about the following calss B: _____\n public class B<T extends A>{...}?",
+        "choice1": "Class T extends B",
+        "choice2": "B is a bounded parameterized type restricted to be of type T which is of type A or a subclass of A",
+        "choice3": "T is a bounded parameterized type restricted to be of type A or a subclass of A",
+        "choice4": "T is a bounded parameterized type restricted to be of type A or a parent of A",
+        "answer": 3
+    },
+    {
+        "question": "Given the following definitions, which assignments are legal? \ninterface Box<T>{}\nclass SuperBox<T> implements Box<T>{}\n1. Box<String> b = new SuperBox<>();\n2. Box<Object> b = new Box<Object>();\n3. Box<?> b = new Super Box<String>();",
+        "choice1": "1 only",
+        "choice2": "2 only",
+        "choice3": "1 and 3 only",
+        "choice4": "1 and 2 only",
+        "answer": 3
+    },
+    {
+        "question": "Type inference is a feature of Java which ________?",
+        "choice1": "provides ability for a compiler to olook at each method invocation and corresponding declaration to determine the type of agruments, selecting the least specific typing",
+        "choice2": "provides ability for a compiler to look at each method invocation and corresponding declaration to determine the type of agruments, selecting the most specific typing",
+        "choice3": "requires that two methods can't have the same name (i.e, no overloading).",
+        "choice4": "requires that the actual and formal parameter have the same name",
+        "answer": 2
+    },
+    {
+        "question": "The constructor of a superclass cannot be overwritten in a subclass.",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 1
+    },
+    {
+        "question": "Private variables of a parent class are directly accessible by a direct subclass of the parent class",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 2
+    },
+    {
+        "question" : "Since Object is a parent of every class a method with ArrayList<Object> my AL as a formal parameter can accept an ArrayList of type Number as an actual parameter during a method call",
+        "choice1" :"True",
+        "choice2" : "False",
+        "isTF" : true,
+        "answer" : 2
+    },
+    {
+        "question": "Static methods of a class can have their own generics types defined in the method header",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 1
+    },  
+    {
+        "question": "The use of generic typing improves the ability of the compiler to catch errors during compilation.",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 1
+    },
+    {
+        "question": "It is possible to create a generic array.",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 2
+    },
+    {
+        "question" : "A Generic array can be  a formal parameter of a method",
+        "choice1" : "True",
+        "choice2" : "False",
+        "isTF" : true,
+        "answer" : 1
+    },
+    {
+        "question": "The Following statement is vaild:\nList<Integer> aList = new ArrayList<Integer>();",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 2
+    },
+    {
+        "question" : "Since arrays are covariant you cannot have a generic array as a formal parameter of a method",
+        "choice1" : "True",
+        "choice2" : "False",
+        "isTF" : true,
+        "answer" : 1
+    },
+    {
+        "question": "The Following statement is vaild:\nList<Double> aList = new List<Double>();",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 2
+    },
+    {
+        "question": "The Following statement is vaild:\n ArrayList<?> aList =new ArrayList<Double>();",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 1
+    },
+    {
+        "question": "The Following statement is vaild:\n ArrayList<? extends Number> aList =new ArrayList<Double>();",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 1
+    },
+    {
+        "question": "The Following statement is vaild:\nArrayList<? super Number> aList = new ArrayList<Integer>();",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 2
+    },
+    {
+        "question" : "The following statement is vaild: \nList<? extends Integer> aList = new ArrayList<Integer>();",
+        "choice1" : "True",
+        "choice2" : "False",
+        "isTF" : true,
+        "answer" : 1
+    },
+    {
+        "question": "The Following statement is vaild:\n List<? extends Number> aList =new ArrayList<Integer>();",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 1
+    },
+    {
+        "question": "A primitive numeric type can be used as a type when instantiating a generic class since the primitive type will be automatically autoboxed ",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 2
+    },
+    {
+        "question": "An abstract class can have non-abstract methods.",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 1
+
+    },
+    {
+        "question": " Every Class automaticaly has a default constructor",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 1
+
+    },
+    {
+        "question": "Constructors are always inherited.",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 2
+    },
+    {
+        "question": "You can use a primitive numeric type to instantiate a generic class since the primitive type will be automatically autoboxed.",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF": true,
+        "answer": 2
+    },
+    {
+        "question": "The use of raw data types can delay the discovery of errors in the code until the code is excuted.",
+        "choice1": "True",
+        "choice2": "False",
+        "isTF":true,
+        "answer": 1
+    },
+    {
+        "question" : "The Following statement is vaild: \nList<String> aList = new List<String>():",
+        "choice1" : "True",
+        "choice2" : "False",
+        "isTF" : true,
+        "answer" : 2
+    },
+    {
+        "question" : "The following statement is vaild: \n ArrayList<? super Integer> aList = new ArrayList<String>();",
+        "choice1" : "True",
+        "choice2" : "False",
+        "isTF" : true,
+        "answer" : 2
+    },
+    {
+        "question": "Calculate the cyclomatic complexity for the following figure, assuming a single exit after node S. Show your formula and calculation to ensure partial credit ",
+        "isFR":true,
+        "freeform": "v = e - n + 2, e = 24, n = 19, v = 24 - 19 + 2 = 7",
+        "image": "Picture1.jpg"
+    },
+    {
+        "question":"Create a random object myRand with a seed of 3. Then set an int myInt equal to a \nrandomly generated int value from 19 to 99 inclusively using myRand",
+        "isFR": true,
+        "freeform": "Random myRand = new Random(3); int myInt =myRand.nextInt(99-19+1)+19; System.out.print(myInt); }}"
+    },
+    {
+        "question": "Given the following code snippet, what will be the output? \nList<String> list = new ArrayList<>();\nlist.add(\"Hello\");\nlist.add(\"World\");\nSystem.out.println(list.get(1));",
+        "isFR": true,
+        "freeform": "World"
+    },
+    {
+        "question":"Calculate the cyclomatic complexity for the following figure, assuming a single exit after node 7. Show your formula and calculation to ensure partial credit Answer:",
+        "isFR": true,
+        "image" : "Picture2.jpg",
+        "freeform": "v = e - n + 2, e = 8, n = 7, v = 8 - 7 + 2 = 3"
+    },
+    {
+        "question" : "Calculate the cyclomatic complexity for the following figure, assuming a single exit after node 7. Show your formula and calculation to ensure partial credit ",
+        "isFR" : true,
+        "image" : "Picture3.png",
+        "freeform" : "v = e - n + 2, e = 9, n = 7, v = 9 - 7 + 2 = 4"
     }
 ]

@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Music Quiz -Play</title>
-    <link rel="stylesheet" href="app.css"/>
-    <link rel="stylesheet" href="game.css"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<title>Music Quiz -Play</title>
+<link rel="stylesheet" href="app.css"/>
+<link rel="stylesheet" href="game.css"/>
+<style>
+    h2{
+        font-size: 3rem;
+    }
+  button{
+      background-color: #1db954;
+      color:white;
+      border: non;
+      border-radius: 50px;
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+  button:hover{
+      background-color: #17a44a;
+    }
+    .image{
+        position: relative;
+        right: -330px;
+        width: 220px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+        transform: translateY(-15px);
+    }
+</style>
+    
 </head>
 <body>
     <div class="container">
         <div id="loader"></div>
         <div id="game" class="justify-center flex-column hidden">
           <div id="hud">
-            <div id="hud-iteam">
+            <div id="hud-item">
                 <p id="progressText" class="hud-prefix">
                     Question
                 </p>
@@ -30,7 +57,13 @@
                     </h1>
                 </div>
             </div>
-            <h2 id="question"></h2> 
+            <h2 id="question"></h2>
+            <img id="picture" class="image">
+            <button id="playClip" type="button" class="button" style="display:none;">▶️ Play Clip</button>
+            <audio id="qAudio" preload="metadata"></audio>
+            <input id ="freeforminput" type="input" placeholder="Enter your answer" style="display:none">
+            <button id="inputbutton" type="sumbit" style="display:none">Submit</button>
+
             <div class="choice-container">
                 <p class="choice-prefix">A</p>
                 <p class="choice-text" data-number="1"></p>

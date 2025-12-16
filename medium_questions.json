@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What riff is this from",
+        "choice1" : "Unholy Confessions",
+        "choice2" : "Welcome To the Family",
+        "choice3" : "M.I.A",
+        "choice4" : "Dear God",
+        "answer": 2,
+        "audio": "x7v/Welcome to the Family.mp3"
+
+    },
+    {
+        "question": "What solos is this from ?",
+        "choice1": "Nightmare",
+        "choice2": "Demons",
+        "choice3": "The Stage",
+        "choice4": "Hail to the King",
+        "answer": 3,
+        "audio": "x7v/The Stage.mp3"
+    },
+    {
+        "question": "What Song is this ?",
+        "choice1": "Blinded in Chains",
+        "choice2": "Danger Line",
+        "choice3": "SideWinder",
+        "choice4": "Bat Country",
+        "answer": 1,
+        "audio" :"x7v/Blinded in Chains.mp3"
+    },  
+    {   "question": "What Song is this ?",
+        "choice1":"Burn it Down",
+        "choice2":"Almost Easy",
+        "choice3":"Crossroads",
+        "choice4":"Beast and the Harlot",
+        "answer" : 4,
+        "audio": "x7v/Beast And The Harlot.mp3"
+    },
+    {
+        "question": "What song is this?",
+        "choice1":"Save Me",
+        "choice2": "Planets",
+        "choice3": "This Means War",
+        "choice4": "Dear God",
+        "answer": 1,
+        "audio": "x7v/Save Me.mp3"
+    },
+    {
+        "question": "What song is this?",
+        "choice1":"God Hates Us",
+        "choice2": "Buried Alive",
+        "choice3": "So Far Away",
+        "choice4": "Victim",
+        "answer": 2,
+        "audio": "x7v/Buried Alive.mp3"
+    },
+    {
+        "question": "What song is this?",
+        "choice1":"Walk",
+        "choice2": "The Stage",
+        "choice3": "Heretic",
+        "choice4": "Shepherd of Fire",
+        "answer": 3,
+        "audio": "x7v/Heretic.mp3"
+    },
+    {
+        "question": "What song is this?",
+        "choice1":"Unholy Confessions",
+        "choice2": "Remenissions",
+        "choice3": "Chapter 4",
+        "choice4": "And All Things Will End",
+        "answer": 1,
+        "audio": "x7v/Unholy Confessions.mp3"
+    },
+    {
+        "question": "What song is this?",
+        "choice1":"AfterLife",
+        "choice2": "Strength of the World",
+        "choice3": "Betrayed",
+        "choice4": "A little Piece of Heaven",
+        "answer": 4,
+        "audio": "x7v/A Little Piece Of Heaven.mp3"
+    },
+    {
+        "question": "What song is this?",
+        "choice1":"Dancing Dead",
+        "choice2": "Critical Acclaim",
+        "choice3": "Lost It All",
+        "choice4": "Paranoid",
+        "answer": 2,
+        "audio": "x7v/Critical Acclaim.mp3"
+    }
+]

@@ -1,0 +1,566 @@
+[
+    {
+        "question":"A interface can extend how many interfaces?",
+        "choice1":"0",
+        "choice2":"1",
+        "choice3":"2",
+        "choice4":"Any Number",
+        "answer": 4
+    },
+    {
+        "question":"Which method do we need to write when implementing a java.util.Comparator interface?",
+        "choice1":"compare()",
+        "choice2":"compareTo()",
+        "choice3":"sort()",
+        "choice4":"sortTo()",
+        "answer": 1
+    },
+    {
+        "question": "Whenever you are getting values out of a structure with a wild card, according to the get and put principle, use an _____ wildcard.",
+        "choice1": "extends",
+        "choice2": "super",
+        "choice3": "unbounded",
+        "choice4": "free",
+        "answer": 1
+    },
+    {
+        "question":"(T) -> () is a lambda expression that represents a ______",
+        "choice1": "Supplier<T>",
+        "choice2":"Consumer<T>",
+        "choice3":"Predicate<T>",
+        "choice4":"ToIntFunction<T>",
+        "answer": 2
+    },
+    {
+        "question":"What type of class has always been type safe",
+        "choice1":"Array",
+        "choice2":"LinkedList",
+        "choice3":"PriorityQueue",
+        "choice4":"Stack",
+        "answer": 1
+    },
+    {
+        "question":"What is the following code snippet an example of: <? extends T>",
+        "choice1":"Lower bounded wildcard type",
+        "choice2":"Undefined wildcard type",
+        "choice3":"Upper bounded wildcard type",
+        "choice4":"Unbounded wildcard type",
+        "answer": 3
+    },
+    {
+        "question":"A queue is an example of what type of retrirval structure",
+        "choice1":"FIFO",
+        "choice2":"LIFO",
+        "choice3":"LILO",
+        "choice4":"GIGA",
+        "answer": 1
+    },
+    {
+        "question":"Which type of List inclueds an implementation of the Deque interface",
+        "choice1":"ArrayList",
+        "choice2":"Stack",
+        "choice3":"Vector",
+        "choice4":"LinkedList",
+        "answer": 4
+    },
+    {
+        "question":"What do all classes that implement the List interface have in common?",
+        "choice1":"a linked structure",
+        "choice2":"element uniqueness",
+        "choice3":"priority ordering",
+        "choice4":"an index",
+        "answer": 4
+    },
+    {
+        "question":"In Jave, R apply (T t) is an abstract method of",
+        "choice1":"Function",
+        "choice2":"Process",
+        "choice3":"Predicate",
+        "choice4":"None",
+        "answer": 1
+    },
+    {
+        "question":"A UnaryOperator in Java is an ",
+        "choice1":"Method",
+        "choice2":"Class",
+        "choice3":"Interface",
+        "choice4":"Framework",
+        "answer": 3
+    },
+    {
+        "question":"Lambda expressions allow us to treat",
+        "choice1":"data as code",
+        "choice2":"code as data",
+        "choice3":"both of the above",
+        "choice4":"neither of the above",
+        "answer": 2
+    },
+    {
+        "question":"Functional interfaces can have at most how many abstract methods aside from methods defined in Object",
+        "choice1":"0",
+        "choice2":"1",
+        "choice3":"2",
+        "choice4":"Any Number",
+        "answer": 2
+    },
+    {
+        "question":"Given the followning code select the correct choice below:\nimport java.util.function.Predicate;\npublic class PredicateTes{\n\t public static void main(String[] args){\n\t\tPredicate<Integer> gt7 = ((Predicate<Integer>)(val -> val > 7)).negate();\n\t\tSystem.out.printf('%b,  ',gt7.test(6));\n\t}\n}\n",
+        "choice1":"This program results in a compiler error in the line marked with comment#1",
+        "choice2":"This program prints: true",
+        "choice3":"This program prints: false",
+        "choice4":"This program crashes by throwng NullPointerException",
+        "answer": 2
+    },
+    {
+        "question":"How many direct subclasses can a class have?",
+        "choice1":"0",
+        "choice2":"1",
+        "choice3":"2",
+        "choice4":"Any Number",
+        "answer": 4
+    },
+    {
+        "question":"Which statement is not true about inheritance",
+        "choice1":"You can override any public non-static method of the parent class",
+        "choice2":"A child class cna use covarient return types in case of method overriding",
+        "choice3":"Method parameters ordering can change when overrding a method",
+        "choice4":"The subclass cannot directly access the private methods of the super class",
+        "answer": 3
+    },
+    {
+        "question":"Which method do we need to write when implementing a Comparator interface?",
+        "choice1":"compare()",
+        "choice2":"compareTo()",
+        "choice3":"sort()",
+        "choice4":"sortTo()",
+        "answer": 1
+    },
+    {
+        "question":"Which of the followning is a common use case for lambda expressions in Java",
+        "choice1":"To replace complex nested loops",
+        "choice2":"To implement algorthims",
+        "choice3":"To pass behavior as a parameter to methods",
+        "choice4":"To define custom data structure",
+        "answer": 3
+    },
+    {
+        "question":"What are we referring to when we mention java.util.Collections",
+        "choice1":"A utility class for use with objects created from classes that implement the Collection interface",
+        "choice2":"The interface from which lists, queues and sets extend",
+        "choice3":"The Collections architecture Framework",
+        "choice4":"A utility class for the manipulation of arrays",
+        "answer": 1
+    },
+    {
+        "question":"What is the followning code snippet an example of: <? super Random>",
+        "choice1":"Undefined wildcard type",
+        "choice2":"Lower bounded wildcard type",
+        "choice3":"Upper bounded wildcard type",
+        "choice4":"Unbounded wildcard type",
+        "answer": 2
+    },
+    {
+        "question":"An implementation if the functional interface _______ takes a T argument and returns a boolean, and tests whether the T argument satisfies a condition",
+        "choice1":"Predicate<T>",
+        "choice2":"Operator<T>",
+        "choice3":"Function<T>",
+        "choice4":"Supplier<T>",
+        "answer": 1
+    },
+    {
+        "question":"The Sequenced Collection is extended or implemented directly or indirectly by all of the following except:",
+        "choice1":"List",
+        "choice2":"Deque",
+        "choice3":"Queue",
+        "choice4":"LinkedList",
+        "answer": 3
+    },
+    {
+        "question":"What is the difference between a lambda expressions and an anonymous class in Java?",
+        "choice1":"Lambda expressions can be used with any interface",
+        "choice2":"Anonymous classes are more efficient than lambda expressions",
+        "choice3":"Lamda expressions are more concise than anonymous classes",
+        "choice4":"There is no difference bewteen the two",
+        "answer": 3
+    },
+    {
+        "question":"Whats is true of the return type of a lambda expressions in Java",
+        "choice1":"The return type must be void",
+        "choice2":"The return type must be an object",
+        "choice3":"The return type must be a primitive type",
+        "choice4":"The return type is inferred from the context",
+        "answer": 4
+    },
+    {
+        "question":"In the context of lambda expressions, what is a target type parameter in a method?",
+        "choice1":"The type of the lambda expressions",
+        "choice2":"The type of the functional interface",
+        "choice3":"the type of the argument",
+        "choice4":"The return type of the lambda expression",
+        "answer":2
+    },
+    {
+        "question":"How do you call from a class a public static method named colorType with no parameters that is defined in an interface named ColorTest?",
+        "choice1":"ColorTest.colorType()",
+        "choice2":"ColorTest.colorType();",
+        "choice3":"colorType().ColorTest;",
+        "choice4":"new ColorTest.colorType();",
+        "answer":2
+    },
+    {
+        "question":"A class can extend how many classes",
+        "choice1":"0",
+        "choice2":"1",
+        "choice3":"Any Number",
+        "answer": 2
+    },
+    {
+        "question":"What is a lambda expression in Java",
+        "choice1":"A way to write a single line of code",
+        "choice2":"A method with no return type",
+        "choice3":"A class that implements an interface",
+        "choice4":"A way to define anonymous methods",
+        "answer":4
+    },
+    {
+        "question":"Can a lambda expression have more than one parameter",
+        "choice1":"Yes, but only two parameters",
+        "choice2":"Yes, it can have multiple parameters",
+        "choice3":"No, it can only have one parameter",
+        "choice4":"No, it cannot have any parameters",
+        "answer": 2
+    },
+    {
+        "question":"What is the following code snippet an example of: <? extends Integer>",
+        "choice1":"Lower bounded wildcard type",
+        "choice2":"Undefined wildcard type",
+        "choice3":"Upper bounded wildcard type",
+        "choice4":"Unbounded wildcard type",
+        "answer":3
+    },
+    {
+        "question":"Can a lambda expression in Java hava body with multiple statements",
+        "choice1":"No, it can only have a single statement",
+        "choice2":"Yes, if the statement are enclosed in curly brace",
+        "choice3":"Yes, but it cannot have a return statement",
+        "choice4":"No, it must be a single-line expression",
+        "answer":2
+    },
+    {
+        "question":"Type inference is a feature if Java which",
+        "choice1":"rovides ability for a compiler to look at each method invocation and corresponding declaration to determine the type of arguments, selecting the least specific typing",
+        "choice2":"rovides ability for a compiler to look at each method invocation and corresponding declaration to determine the type of arguments, selecting the most specific typing.",
+        "choice3":"equires that two methods can’t have the same name (i.e. no overloading)",
+        "choice4":"equires that the actual and formal parameter have the same name",
+        "answer":2
+    },
+    {
+        "question":"How do you call from another class a public static method named calculateArea with no parameters that is defined in a class named Rectangle",
+        "choice1":"Rectangle.calculateArea()",
+        "choice2":"rect.calculateArea();",
+        "choice3":"calculateArea()",
+        "choice4":"new Rectangle().calculateArea();",
+        "answer":1
+    },
+    {
+        "question":"If a subclass doesn't have a defined constructor, a default constructor is automatically inserted that includes a call to the super class default constructor",
+        "choice1":"True",
+        "choice2":"False",
+        "isTF":true,
+        "answer":1
+    },
+    {
+        "question":"The LinkedList is less efficient for sorting than the ArrayList.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"Using a raw data type in a Java program will generate a warning rather than a compilation error.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"An overriding method of a parent’s method in a subclass must have the same return type or a supertype of the return type as the parent’s method.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"A lambda expression can modify effectively final variables of the method inside of which the lambda expression is embedded.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"The following statement is valid: ArrayList<Integer> myQueue = new ArrayList<Object>();",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"The following statement is valid: Deque<Double> myList = new LinkedList<Double>();",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"The expression below defines Integer as an upper bound for U: public <U super Integer> void inspect(U u)",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"A functional interface with a single abstract method can contain multiple default methods.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"If you create a List called newList using the Arrays.asList method based on an array called newArray, then you can add elements to the end of newList.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"According to the API you can put null elements into a LinkedList.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"A generic class can have multiple parents.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"Given an ArrayList<Integer> myList exists, and you create an array myArray using the toArray() method implemented with myList, then when you change an element in myList the corresponding element in myArray is changed.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"Assume you have created a PriorityQueue of type T and assume that type T has a natural ordering. When you create an Iterator for this PriorityQueue, using that Iterator guarantees that the elements will be retrieved in their natural ordering.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"The Java compiler automatically provides a no-argument, default constructor for any class without constructors.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"It is more efficient to traverse a LinkedList by iteration than by using an indexed loop.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"If you use a raw data type errors are more likely to be caught during execution than during compilation.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"An overriding method of a parent’s method in a subclass can have a different number of parameters than the parent’s method.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"A lambda expression can modify instance variables of the class inside of which the lambda expression is embedded.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"The following statement is valid: ArrayList<? extends Number> myAL = new ArrayList<Integer>();",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"Default methods of a functional interface can be used inside the anonymous class implementing the abstract method of that interface.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"The expression below defines Integer as an upper bound for U: public <U super Integer> void inspect(U u)",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"A functional interface with a single abstract method cannot contain static methods.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"If you create a List called newList using the Arrays.asList method based on an array called newArray, then you can add elements to the tail of newList and the array will be resized appropriately.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"If a class does not implement the Comparable interface a Comparator must be defined for that class in order to use PriorityQueue.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"A Stack implements a First-In-First-Out List.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"The Supplier functional interface in java.util.function has a void return.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"getFirst() is a method in the SequencedCollection interface.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"Private methods of a parent class are inherited by all the subclasses of the parent class.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"The ArrayList is more efficient for insertions and deletions from the top of the List (i.e. 0TH position) than the LinkedList.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"If you use a raw data type in Java your program may not catch certain errors of type mismatching during compilation.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"An overriding method of a parent’s method in a subclass must have the same signature as the parent’s method.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"A lambda expression cannot modify static variables of the class inside of which the lambda expression is embedded.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"The following statement is valid: Deque<Integer> myQueue = new Deque<Integer>();",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"The following statement is valid: List<Double> myList = new Stack<Double>();",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"The expression below defines Integer as a lower bound for U: public <U super Integer> void inspect(U u)",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"If an interface has a single abstract method a lambda expression can be used to implement that abstract method.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"If you use the asList method to create a List named myList based on an Array named myArray then any future change to the value of an element in myList will be automatically reflected in myArray.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"A Supplier function has no input parameters.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"According to the API you can put null elements into a PriorityQueue.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"A generic class can implement at most one interface.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    },
+    {
+        "question":"Implementing the UnaryOperator<T> functional interface guarantees that you will always return a value of type T.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":1
+    },
+    {
+        "question":"Assume you have created a PriorityQueue of type T using the ordering defined for a Comparator of type T. When you create an Iterator for this PriorityQueue, using that Iterator guarantees that the elements will be retrieved for printing in the order defined by the Comparator.",
+        "choice1":"True",
+        "choice2":"False",
+        "isTR":true,
+        "answer":2
+    }    
+]

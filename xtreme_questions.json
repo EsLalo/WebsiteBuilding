@@ -1,0 +1,93 @@
+[
+    {
+        "question": "Guess the Song",
+        "choice1" : "Nightmare",
+        "choice2" : "Walk",
+        "choice3" : "Betrayed",
+        "choice4" : "Shepherd of Fire",
+        "answer": 2,
+        "image" : "x7v/x7v_Notes/Walk.png"
+
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "Blinded in Chains",
+        "choice2": "Trashed and Scatter",
+        "choice3": "Buried Alive",
+        "choice4": "Danger Line",
+        "answer": 4,
+        "image" :"x7v/x7v_Notes/DangerLine.png"
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "AfterLife",
+        "choice2": "Heretic",
+        "choice3": "God Damn",
+        "choice4": "Dancing Dead",
+        "answer": 1,
+        "image": "x7v/x7v_Notes/AfterLife.png"
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "Chapter 4",
+        "choice2": "Girl I Know",
+        "choice3": "Victim",
+        "choice4": "The Stage",
+        "answer": 4,
+        "image": "x7v/x7v_Notes/The Stage.png"
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "Hail to the King",
+        "choice2": "Flash of the Blade",
+        "choice3": "Nightmare",
+        "choice4": "Lost It All",
+        "answer": 3,
+        "image": "x7v/x7v_Notes/Nightmare.png"
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "So Far Away",
+        "choice2": "Bat Country",
+        "choice3": "Betrayed",
+        "choice4": "Seize the Day",
+        "answer": 3,
+        "image":"x7v/x7v_Notes/Betrayed.png"
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "Sidewinder",
+        "choice2": "The Fight",
+        "choice3": "M.I.A",
+        "choice4": "Burn it Down",
+        "answer": 3,
+        "image":"x7v/x7v_Notes/M.I.A.png"
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "Save Me",
+        "choice2": "God Hates Us",
+        "choice3": "Almost Easy",
+        "choice4": "Natural Born Killer",
+        "answer": 2,
+        "image":"x7v/x7v_Notes/God Hates Us.png"
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "Welcome to the Family",
+        "choice2": "This Means War",
+        "choice3": "Critical Acclaim",
+        "choice4": "And All Things Will End",
+        "answer": 1,
+        "image": "x7v/x7v_Notes/Welcome to the Family.png"
+    },
+    {
+        "question": "Guess the Song",
+        "choice1": "Remenissions",
+        "choice2": "M.I.A",
+        "choice3": "4AM",
+        "choice4": "Unholy Confessions",
+        "answer": 4,
+        "image":"x7v/x7v_Notes/Unholy Confessions.png"
+    }
+]
