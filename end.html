@@ -3,6 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats!!!!</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore"></h1>
+
+            <form onsubmit="saveHighScore(event)">
+                <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="username"
+                />
+
+                <button
+                    type="submit"
+                    class="button"
+                    id="saveScoreBtn"
+                    disabled
+                >
+                    Save
+                </button>
+            </form>
+
+            <a class="button" href="game.html">Play Again</a>
+            <a class="button" href="index.html">Go Home</a>
+        </div>
+    </div>
+
+    <script src="end.js"></script>
+</body>
+</html>
+
+
+<!--  COMMENT OUT temporarily to test new code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Congrats!!!!</title>
     <link rel ="stylesheet" href="app.css"/>
@@ -33,4 +77,7 @@
     </div>
     <script src="end.js"></script>
 </body>
+
 </html>
+
+-->
