@@ -1,39 +1,4 @@
-/* High score list container */
-#highScoresList {
-    list-style: none;
-    padding: 0;
-    margin: 2rem 0;
-    width: 100%;
-    max-width: 32rem;
-}
 
-/* Each score row */
-.high-score {
-    background: white;
-    padding: 1.2rem 1.6rem;
-    margin: 0.8rem 0;
-    border-radius: 6px;
-    font-size: 1.8rem;
-    text-align: center;
-    color: #333;
-    border: 0.1rem solid #56a5eb;
-    transition: transform 150ms ease, box-shadow 150ms ease;
-}
-
-/* Hover effect (matches your button hover style) */
-.high-score:hover {
-    transform: translateY(-0.1rem);
-    box-shadow: 0 0.4rem 1.4rem rgba(86, 165, 235, 0.4);
-}
-
-/* Empty state message */
-#highScoresList li {
-    font-size: 1.6rem;
-    color: #333;
-}
-
-
-/*    COMMENT OUT temporarily to test new code
 
 
 #highScoresList{
@@ -52,5 +17,3 @@
     transform:scale(1.025);
 
 }
-
-*/
